@@ -1,0 +1,76 @@
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: 'Sour Gummy';
+  color: #fff;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  padding: 1rem 3rem 1rem 3rem;
+  width: 23rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-temp {
+  width: calc(70% + 0.5rem);
+  height: 2.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.option-temp {
+  font-weight: bold;
+}
+
+.input-temp {
+  width: 70%;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  /* remove as setas do INPUT NUMBER pt1 */
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
+  /* remove as setas do INPUT NUMBER pt1 */
+  border-radius: 0.5rem;
+  border: none;
+}
+
+/* remove as setas do INPUT NUMBER pt2 */
+.input-temp::-webkit-outer-spin-button,
+.input-temp::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button-converter {
+  width: calc(70% + 0.5rem);
+  height: 2.6rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.button-converter:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.button-converter:active {
+  opacity: 1;
+}
+
+.h2-temp {
+  margin: 0;
+  color: grey;
+}
